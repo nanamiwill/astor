@@ -1,0 +1,178 @@
+
+.heater-logo{
+  font-size: 50px;
+  padding-left: 100px;
+  margin: 0%;
+
+}
+.logo1{ 
+   padding-left: 80px; }
+
+.heater-list p {
+  display: inline-block; 
+  padding: 20px;
+}
+.heater-list2 p {
+  display: inline-block; 
+  padding: 20px;
+  /* background-color: rgb(209, 78, 221); */
+}
+
+
+.heater-list2{
+  background-color: rgb(209, 78, 221);
+  
+}
+
+.heater-logo1{
+  font-size: 50px;
+  padding: 30px;
+  margin: 0%;
+}
+.men{
+  font-size: small;
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  list-style: none;
+}
+footer h1{
+  background-color: blueviolet;
+
+}
+
+.akemi{
+
+  text-align: center;
+  }
+.nana {
+ 
+
+text-align: center;
+ border: solid 2px red;
+  border-radius: 30px;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+
+  display: inline;
+  vertical-align: middle;
+  /* display: inline-block;
+   */
+}
+
+/* .sample { */
+  /* border: <線のスタイル> <線の太さ> <線の色> */
+/* } */
+
+.astor {
+  position: relative;
+} 
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%,-50%);
+  margin: 0%;
+  font-size: 100px;
+
+}
+.tuika img{
+  padding: 30px;
+  display: flex;
+  margin: auto;
+
+}
+.oto{
+  text-align: center;
+}
+.boda{
+ margin: auto;
+ 
+  /* text-align: center; */
+}
+
+
+@media screen and (max-width: 480px){ 
+  .heater-logo{
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+  
+  }
+  /* .about{
+    width: 100%;
+  } */
+  
+  .heater-list p {
+    padding: 0%;  
+  }
+.heater-list{
+  width: 100%;
+}
+  .heater-list2 p {
+    padding: 0%;  
+  }
+  img { 
+    width: 80%; 
+  }
+  .heater-logo1 {
+    padding:0.5px ;
+    /* padding-left: px; */
+  }
+  ul{
+  flex-direction: column;
+}
+  .sapo img{
+    width: 90px;
+    display: flex;
+    margin : 0 auto
+  }
+  .sapo {
+      text-align: center;
+
+    }
+
+    .center{
+      font-size: 50px;
+    }
+    
+    .tuika img{
+      width: 70%;
+      display: flex;
+      margin: auto;
+      padding-top: 10px;
+      }
+  }
+
+  
+
+/* .sapoing { */
+  /* text-align: center; */
+  /* margin : 0 auto */
+/* } */
+
+/* img{display: flex; */
+/* flex-direction: column;} */
+  /* body{
+    margin:0px 25px;
+    padding:0px;
+    text-align:center;
+    } */
+    /* #layout{
+      margin-left:auto;
+      margin-right:auto;
+      width:780px;
+      text-align:left;
+      } */
+      /* #container {
+        max-width: 960px;
+        margin: 0 auto;
+      }
+      #main {
+        width: 100%;
+      } */
+/* } */
